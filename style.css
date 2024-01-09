@@ -172,10 +172,11 @@
 }
 
 .event{
-    margin-left: 60px;
+    margin-left: 90px;
     margin-top: 300px;
     display: flex;
     justify-content: space-between;
+    margin-right: 50px;
 }
 
 .event-text-2{
@@ -205,6 +206,7 @@
 .event-third-p{
     margin: 20px;
     color: gray;
+    /* margin-left: -100px; */
 }
 .holiday-sale{
     margin-top: 200px;
@@ -270,7 +272,7 @@
     /* margin-top: -200px; */
     position: absolute;
     margin-top: 400px;
-    margin-left: -805px;
+    margin-left: -792px;
 }
 
 .portfolio-main{
