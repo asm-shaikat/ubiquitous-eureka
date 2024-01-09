@@ -162,21 +162,23 @@
 .location-btn{
     height: 50px;
     width: 100px;
-    background-color: orangered;
-    border-radius: 10px;   
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+       
 }
 
 .event{
     margin-top: 300px;
     display: flex;
-    margin-left: 70px;
+    justify-content: space-between;
 }
 
 .event-text-2{
     color: orangered;
     font-size: 28px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 600;   
 }
 .event-text-3{
     font-size: 48px;
@@ -191,15 +193,15 @@
 }
 
 .event-third{
-    margin-left: 40%;
+
 }
 .event-image{
     border: 15px solid red;
     border-radius: 50%;
     padding: 20px;
-    margin-top: 80px;
-    margin-top: -30px;
-    margin-left: 80%;
+    /* margin-top: 80px; */
+    /* margin-top: -30px; */
+    /* margin-left: 80%; */
 }
 
 .event-third-p{
@@ -207,10 +209,10 @@
     color: gray;
 }
 .holiday-sale{
-    text-align: center;
     margin-top: 200px;
 }
 .holiday-sale-text-1 {
+    text-align: center;
     color: #070211;
     font-family: Inter;
     font-size: 24px;
@@ -218,6 +220,7 @@
     font-weight: 500;
 }
 .holiday-sale-text-2{
+    text-align: center;
     display: flex;
     margin-left: 35%;
     font-size: 72px;
@@ -237,18 +240,43 @@
 
 .holiday-sale-para{
     color: gray;
+    text-align: center;
+}
+.holiday-sale-image{
 }
 
 .hsi{
 }
-.hsi-1{
+.hsi-1 {
+    margin-top: 40px;
+    position: relative;
+    margin-left: 60%;
+}
+
+.hsi-1-1, .hsi-1-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hsi-1-1 {
+    margin-top: 50px;
+    margin-left: -100px;
+    z-index: 1; 
 }
 
 .hsi-2{
+    margin-left: 220px;
 }
 .hsi-2-1{
+    position: relative;
+    z-index: 1;
 }
 .hsi-2-2{
+    /* margin-top: -200px; */
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -805px;
 }
 .hsi-3{
 }
